@@ -8,6 +8,8 @@ function getComputerChoice() {
     return ComputerChoice.toLowerCase()
 }
 
+const prompt = require("prompt-sync")({sigint:true})
+
 function playerChoice() {
     let playChoice = null;
     while (playChoice === null) {
