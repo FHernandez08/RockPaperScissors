@@ -6,6 +6,50 @@
     <title>Rock Paper Scissors Game</title>
 </head>
 <body>
+    header>
+        <h1>Rock, Paper, Scissors</h1>
+    </header>
+
+    <!--main-->
+
+    <main>
+        <div class="game-display">
+            <div class="winner">
+                <h2 id="winner">---</h2>
+            </div>
+            <div class="choices">
+                <div class="player-container">
+                    <h3>Player Choice</h3>
+                    <h2 id="user-choice-output">---</h2>
+                </div>
+                <div class="computer-container">
+                    <h3>Computer Choice</h3>
+                    <h2 id="computer-choice-output">---</h2>
+                </div>               
+            </div>
+            <div class="choice-and-score-container">
+                <div class="player-choice">
+                    <label>Select rock, paper or scissors:</label>
+                    <div class="button-container">
+                        <button class="choice-button">Rock</button>
+                        <button class="choice-button">Paper</button>
+                        <button class="choice-button">Scissors</button>
+                    </div>
+                </div>
+                <div class="scores">
+                    <div class="player-score">
+                        <h5>Player Score</h5>
+                        <h4 id="player-score">0</h4>
+                    </div>
+                    <div class="computer-score">
+                        <h5>Computer Score</h5>
+                        <h4 id="computer-score">0</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <script src="app.js"></script>
 </body>
 </html>
